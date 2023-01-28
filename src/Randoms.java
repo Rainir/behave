@@ -7,7 +7,7 @@ public class Randoms implements Iterable<Integer> {
 //    int min;
 //    int max;
     public Randoms(int min, int max) {
-         numbs = random.ints(5, min, max).boxed().toList();
+         numbs = random.ints(1000, min, max + 1).boxed().toList();
     }
 
     @Override
